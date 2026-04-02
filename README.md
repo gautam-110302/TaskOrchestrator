@@ -29,7 +29,7 @@ The system manages the entire lifecycle of a background task:
 3. **Jackson** (JSON Parsing)
 4. **Mailtrap** (Used for safe local SMTP testing)
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Database Setup
 Make sure PostgreSQL is running locally and create a database for the project. Update the `application.properties` with your database credentials:
