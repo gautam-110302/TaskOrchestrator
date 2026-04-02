@@ -1,0 +1,20 @@
+# ==========================================
+# Database Configuration
+# ==========================================
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+spring.datasource.username=postgres
+spring.datasource.password=REPLACE_ME
+
+# Hibernate auto-generation
+spring.jpa.hibernate.ddl-auto=update
+
+# ==========================================
+# Mailtrap / SMTP Configuration (Sandbox)
+# ==========================================
+spring.mail.host=sandbox.smtp.mailtrap.io
+spring.mail.port=2525
+spring.mail.username=REPLACE_WITH_MAILTRAP_USERNAME
+spring.mail.password=REPLACE_WITH_MAILTRAP_PASSWORD
+
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
